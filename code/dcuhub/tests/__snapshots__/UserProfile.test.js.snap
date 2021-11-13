@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Profile Screen Snapshot 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={75}
+    extraScrollHeight={0}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardSpace={0}
+    onScroll={[Function]}
+    resetKeyboardSpace={[Function]}
+    scrollEventThrottle={1}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <View>
+      <View>
+        <Image
+          source={1}
+          style={
+            Object {
+              "width": 750,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 75,
+            "height": 150,
+            "marginTop": -70,
+            "width": 150,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": null,
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#25afcd",
+              "borderRadius": 70,
+              "height": 140,
+              "marginTop": 5,
+              "width": 140,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                  "textAlign": "left",
+                  "writingDirection": "ltr",
+                },
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "letterSpacing": 0.15,
+                    "lineHeight": 30,
+                    "marginVertical": 2,
+                  },
+                  Object {
+                    "fontSize": 24,
+                    "fontWeight": "bold",
+                    "paddingBottom": 0,
+                  },
+                ],
+              ],
+            ]
+          }
+        >
+          
+        </Text>
+        <View />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#d40059",
+            "fontSize": 14,
+            "marginBottom": 10,
+            "marginTop": 8,
+            "textAlign": "center",
+          }
+        }
+      >
+        <Text />
+      </Text>
+      <View />
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "borderColor": "#777777",
+            "borderRadius": 1,
+            "borderWidth": 0,
+            "marginTop": 10,
+            "paddingHorizontal": 10,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginBottom": 10,
+            }
+          }
+        >
+          <Text />
+          <Text
+            style={
+              Object {
+                "color": "#777777",
+                "fontSize": 16,
+                "fontWeight": "500",
+                "marginLeft": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View />
+        <View />
+        <View />
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "#25afcd",
+              "borderRadius": 10,
+              "borderWidth": 2,
+              "justifyContent": "center",
+              "marginHorizontal": 90,
+              "marginTop": 30,
+              "paddingHorizontal": 10,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#25afcd",
+                "fontSize": 20,
+              }
+            }
+          >
+            GO TO LOOP
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "#d40059",
+              "borderRadius": 10,
+              "borderWidth": 2,
+              "justifyContent": "center",
+              "marginHorizontal": 90,
+              "marginTop": 20,
+              "paddingHorizontal": 10,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#d40059",
+                "fontSize": 20,
+              }
+            }
+          >
+            TO-DO LIST
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderColor": "#f4a446",
+              "borderRadius": 20,
+              "borderWidth": 2,
+              "justifyContent": "center",
+              "marginBottom": 50,
+              "marginHorizontal": 130,
+              "marginTop": 50,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#f4a446",
+                "fontSize": 20,
+              }
+            }
+          >
+            LOG OUT
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;

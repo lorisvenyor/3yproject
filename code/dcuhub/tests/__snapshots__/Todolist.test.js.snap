@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todolist Screen Snapshot 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    collapsable={false}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Modal
+          animationType="fade"
+          hardwareAccelerated={false}
+          onRequestClose={[Function]}
+          visible={false}
+        >
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                },
+                Object {
+                  "paddingBottom": 0,
+                },
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 32,
+                  "top": 64,
+                }
+              }
+            >
+              <Text />
+            </View>
+            <View
+              style={
+                Object {
+                  "alignSelf": "stretch",
+                  "marginHorizontal": 32,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "color": "#2D3436",
+                    "fontSize": 28,
+                    "fontWeight": "800",
+                    "marginBottom": 16,
+                  }
+                }
+              >
+                Create To-Do List
+              </Text>
+              <TextInput
+                allowFontScaling={true}
+                onChangeText={[Function]}
+                placeholder="List Name"
+                rejectResponderTermination={true}
+                style={
+                  Object {
+                    "borderColor": "#24A6D9",
+                    "borderRadius": 6,
+                    "borderWidth": 0.5,
+                    "fontSize": 18,
+                    "height": 50,
+                    "marginTop": 8,
+                    "paddingHorizontal": 16,
+                  }
+                }
+                underlineColorAndroid="transparent"
+              />
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginHorizontal": 50,
+                    "marginTop": 15,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#24A6D9",
+                      "borderRadius": 5,
+                      "height": 30,
+                      "opacity": 1,
+                      "width": 30,
+                    }
+                  }
+                />
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#FFBD4A",
+                      "borderRadius": 5,
+                      "height": 30,
+                      "opacity": 1,
+                      "width": 30,
+                    }
+                  }
+                />
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#f44a6e",
+                      "borderRadius": 5,
+                      "height": 30,
+                      "opacity": 1,
+                      "width": 30,
+                    }
+                  }
+                />
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#9224ef",
+                      "borderRadius": 5,
+                      "height": 30,
+                      "opacity": 1,
+                      "width": 30,
+                    }
+                  }
+                />
+              </View>
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFBD4A",
+                    "borderRadius": 6,
+                    "height": 50,
+                    "justifyContent": "center",
+                    "marginTop": 24,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontWeight": "600",
+                    }
+                  }
+                >
+                  Create
+                </Text>
+              </View>
+            </View>
+          </View>
+        </Modal>
+        <View
+          style={
+            Object {
+              "marginVertical": 50,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#efa024",
+                "borderRadius": 20,
+                "borderWidth": 8,
+                "justifyContent": "center",
+                "opacity": 1,
+                "padding": 20,
+              }
+            }
+          >
+            <Text />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#efa024",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "marginTop": 15,
+              }
+            }
+          >
+            Add new list
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 400,
+            }
+          }
+        >
+          <RCTScrollView
+            data={Array []}
+            disableVirtualization={false}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={true}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            keyboardShouldPersistTaps="always"
+            maxToRenderPerBatch={10}
+            onContentSizeChange={[Function]}
+            onEndReachedThreshold={2}
+            onLayout={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            showsHorizontalScrollIndicator={false}
+            stickyHeaderIndices={Array []}
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <View />
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;
